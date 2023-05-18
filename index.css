@@ -12,27 +12,27 @@
   background-color: #f5f5f5;
   padding: 20px;
   border-radius: 5px;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   font-family: "Segoe UI", Arial, sans-serif;
   text-align: center;
 }
 
 .instructions-box h2 {
-  font-size: 22px;
+  font-size: 2.5rem;
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .instructions-box h3 {
   display: flex;
   justify-content: center;
-  font-size: 2.3rem;
+  font-size: 2rem;
   margin-top: 0;
   margin-bottom: 20px;
 }
 
 .instructions-box p {
-  font-size: 12px;
+  font-size: 0.8rem;
   margin: 10px 0;
 }
 
@@ -40,6 +40,11 @@
 @media screen and (max-width: 600px) {
   .instructions-box {
     padding: 10px;
+  }
+
+  .instructions-box h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
   }
 
   .instructions-box h2 {
@@ -97,7 +102,7 @@
 
 .dialog {
   position: fixed;
-  top: 80%;
+  top: 95%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #fff;
