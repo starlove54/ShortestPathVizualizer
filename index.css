@@ -21,6 +21,7 @@
 }
 
 .instructions-box p {
+  font-size: 14px;
   margin: 5px 0;
 }
 /* CSS for grid cells */
