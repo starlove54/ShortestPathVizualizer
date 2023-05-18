@@ -1,4 +1,4 @@
-#Shortest Path Visualizer
+# Shortest Path Visualizer
 
 
 This is a shortest path visualizer project. 
