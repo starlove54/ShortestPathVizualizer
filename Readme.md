@@ -4,7 +4,7 @@ This is a shortest path visualizer project which implements a* algorithm to sear
 
 ## Demo
 
-You can see the project here. ![shortest path visualizer](https://shortest-path-vizualizer.vercel.app/)
+You can see the project here. [shortest path visualizer](https://shortest-path-vizualizer.vercel.app/)
 
 ## Screenshots
 
