@@ -13,17 +13,44 @@
   padding: 20px;
   border-radius: 5px;
   margin-bottom: 20px;
+  font-family: "Segoe UI", Arial, sans-serif;
+  text-align: center;
 }
 
 .instructions-box h2 {
-  font-size: 24px;
+  font-size: 22px;
   margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.instructions-box h3 {
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 
 .instructions-box p {
-  font-size: 14px;
-  margin: 5px 0;
+  font-size: 12px;
+  margin: 10px 0;
 }
+
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+  .instructions-box {
+    padding: 10px;
+  }
+
+  .instructions-box h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .instructions-box p {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+}
+
 /* CSS for grid cells */
 .cell {
   width: 20px;
