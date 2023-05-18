@@ -1,7 +1,7 @@
 # Shortest Path Visualizer
 
 
-This is a shortest path visualizer project. 
+This is a shortest path visualizer project which uses a* algorithm to search for the shortest path between two points. 
 
 ## Demo
 
