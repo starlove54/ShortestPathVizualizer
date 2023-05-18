@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="instructions-box">
+      <h2>Shortest Path Visualization</h2>
+      <h3>Instructions</h3>
+      <p>
+        Select a starting point (green) and an ending point (red) on the grid
+        below.
+      </p>
+      <p>
+        Once both points are selected, click "Generate Path" to find the
+        shortest path.
+      </p>
+      <p>The cells along the shortest path will be colored in blue.</p>
+      <p>Click "Restart Visualization" to clear the grid and start over.</p>
+    </div>
+    <div id="container">
+      <div id="grid"></div>
+      <div id="buttons">
+        <button onclick="generatePath()">Generate Shortest Path</button>
+        <button onclick="restartVisualization()">Restart Visualization</button>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

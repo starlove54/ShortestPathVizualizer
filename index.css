@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.instructions-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.instructions-box h2 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.instructions-box p {
+  margin: 5px 0;
+}
+/* CSS for grid cells */
+.cell {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ccc;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.start {
+  background-color: green;
+}
+
+.end {
+  background-color: red;
+}
+
+.path {
+  background-color: blue;
+}
+
+/* Center the visualization */
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Remove vertical margins between cell rows */
+.row {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+/* Buttons */
+#buttons {
+  margin-top: 10px;
+}
+
+.dialog {
+  position: fixed;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+}
