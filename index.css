@@ -47,14 +47,24 @@
     margin-bottom: 10px;
   }
 
-  .instructions-box h2 {
+  /* .instructions-box h3 {
     font-size: 24px;
     margin-bottom: 10px;
-  }
+  } */
 
   .instructions-box p {
     font-size: 14px;
     margin: 5px 0;
+  }
+
+  /* CSS for grid cells */
+  .cell {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
   }
 }
 
